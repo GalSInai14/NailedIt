@@ -1,0 +1,138 @@
+
+
+body{
+  text-align: center;
+  background-color: #F4BBBB;
+}
+
+
+h1{
+  font-size:100px;
+  font-family: inherit;
+  color: black;
+}
+
+
+
+input{
+  margin-bottom: 500px;
+}
+
+.Top{
+
+
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.bg-light{
+  background-color: #F9dA82!important;
+}
+.button {
+  border-radius: 40px;
+  background-color: #F9dA82;
+  border: none;
+  color: #222831;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: #F4BBBB;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bottom{
+  padding-top: 100px;
+}
+
+.container-fluid{
+  margin-left: 25px;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 0px;
+
+}
+
+.mb-4{
+  padding-left: 30px;
+  margin-left: -30px;
+  border-radius: 100%;
+  margin-top:25px;
+  padding-bottom: 15px;
+}
+
+.company{
+  padding-top: 100px;
+}
+.overall{
+  background-image: url(../Images/Nailed.png);
+  background-size: 1750px 850px;
+  padding: 90px 100px;
+}
+.icon{
+  color: white;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.icon:hover{
+  color: #F9dA82;
+}
