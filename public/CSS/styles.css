@@ -5,7 +5,12 @@ body{
   background-color: #F4BBBB;
 }
 
-
+hr{
+    border: 0;
+    height: 1px;
+    background: #F4BBBB;
+    background-image: linear-gradient(to right, #F9dA82, #ffff, #F9dA82);
+}
 h1{
   font-size:100px;
   font-family: inherit;
@@ -135,4 +140,9 @@ input{
 }
 .icon:hover{
   color: #F9dA82;
+}
+
+.gImage{
+  border-radius: 100%;
+  margin: 20px;
 }
