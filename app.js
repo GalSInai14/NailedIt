@@ -27,8 +27,7 @@ app.get("/book", (request, response) => {
 
 app.post("/", (req, res) => {
   res.redirect("/book");
-
-
+  
   const email = req.body.email;
   const name = req.body.fName;
   const phone = req.body.phoneNumber;
